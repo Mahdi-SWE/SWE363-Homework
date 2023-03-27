@@ -1,0 +1,77 @@
+#create{
+    color: white;
+    text-decoration: none;
+    background-color: #313042;
+    padding: 15px;
+    border: 3px solid #6d64ff;
+    border-radius: 1rem;
+    cursor: pointer;
+    margin: 10px;
+}
+
+#create:hover{
+    box-shadow: 5px 5px #6d64ff;
+}
+
+.edit{
+    color: white;
+    background-color: #6d64ff;
+    padding: 15px;
+    border: 3px solid black;
+    border-radius: 1rem;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.edit:hover{
+    box-shadow: 5px 5px #6d64ff;
+}
+
+.delete{
+    color: white;
+    background-color: #cf1512;
+    padding: 15px;
+    border: 3px solid #6d64ff;
+    border-radius: 1rem;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.delete:hover{
+    box-shadow: 5px 5px #6d64ff;
+}
+
+.read{
+    color: white;
+    text-decoration: none;
+    background-color: #313042;
+    padding: 15px;
+    border: 3px solid #6d64ff;
+    border-radius: 1rem;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.read:hover{
+    box-shadow: 5px 5px #6d64ff;
+}
+
+.body{
+    color: #6d64ff;
+}
+
+.pargraph{
+    border-radius: 0 1rem;
+    border-bottom: 3px solid #6d64ff;
+    border-left: 3px solid #6d64ff;
+    padding: 10px;
+    margin: 15px;
+
+    /* display: flex;
+    flex-direction: row; */
+}
+
+
+*{
+    font-family: Helvetica;  
+}
