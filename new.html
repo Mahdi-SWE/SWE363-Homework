@@ -7,30 +7,30 @@
 
 <body>
 
-    <h1>Create an artcle</h1 <label for="input">Title</label>
-    <input class="box" type="text">
-    <br>
-    <br>
+    <h1>Create an artcle</h1> 
 
-    <label for="input">Auther</label>
-    <input class="box" type="text" value="Admin">
-    <br>
-    <br>
+    <form id="title">
+        Title <input class="box" type="text" required>
+        <br>
+        <br>
+        Auther <input class="box" type="text" value="Admin">
+        <br>
+        <br>
+        Description <textarea class="box" name="Description" id="" cols="20" rows="2" required></textarea>
+        <br>
+        <br>
+        Content <textarea class="box" name="" id="content" cols="20" rows="10"></textarea>
+        <br>
+        <br>
+    </form>
+    
+    <input onclick="validate()" class="button" type="submit" form="title">
 
-    <label for="">Description</label>
-    <textarea class="box" name="Description" id="" cols="20" rows="2"></textarea>
-    <br>
-    <br>
-
-    <label for="">Content</label>
-    <textarea class="box" name="" id="" cols="20" rows="10"></textarea>
-    <br>
-    <br>
-
-    <button class="button" type="button">Create</button>
 
     <footer>© The Tech Blog 2023 created by 222-SWE-363 student</footer>
 
+
+    <script src="new.js"></script>
 
 
 </body>
