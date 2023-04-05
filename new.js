@@ -5,5 +5,4 @@ function validate(){
     if (context == ""){
         alert("please add context")
     }
-
 }
