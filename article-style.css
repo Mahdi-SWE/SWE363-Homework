@@ -1,6 +1,4 @@
-
-
-.button{
+.button {
     color: white;
     text-decoration: none;
     background-color: #313042;
@@ -11,13 +9,39 @@
     margin: 10px;
 
     position: fixed;
+    bottom: 20px;
+    right: 20px;
 }
 
-.button:hover{
+.button:hover {
     box-shadow: 5px 5px #6d64ff;
 }
 
+.writer{
+    background-color: #efeffa;
+    margin: 10px;
+    padding: 1px;
+    left: auto;
+}
 
-*{
-    font-family: Helvetica;  
+header {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #efeffa;
+    margin-bottom: 2em;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #efeffa;
+    margin-top: 1em;
+}
+
+h4 {
+    color: #6d64ff;
+}
+
+* {
+    font-family: Helvetica;
 }

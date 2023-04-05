@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 <html>
 
+<header>
+    <a class="pageName" href="index.html">Tech Blog</a>
+    <select name="Language" id="ln">
+        <option value="English">English</option>
+        <option value="Arabic">Arabic</option>
+    </select>
+</header>
+
 <head>
     <link rel="stylesheet" href="article-style.css">
 </head>
@@ -8,8 +16,8 @@
 <body>
 
     <h1>HTML Introdution </h1>
-    <p><b>Written by: Admin</b></p>
-    <h2>HTML is the standard markup language for creating Web pages</h2>
+    <p class="writer"><b>Written by: Admin</b></p>
+    <h4>HTML is the standard markup language for creating Web pages</h4>
     <h1>What is HTML</h1>
 
     <ul>
@@ -41,9 +49,11 @@
     <hr>
 
     <button class="button" onclick="likeArticle()">
-        <img src="src/like-plus.png" alt="">5
+        <img src="src/like-plus.png" alt=""><span id="count">5</span>
     </button>
     <footer>© The Tech Blog 2023 created by 222-SWE-363 student</footer>
+
+    <script src="article.js"></script>
 
 </body>
 

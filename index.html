@@ -1,9 +1,16 @@
 <!DOCTYPE html>
 <html>
 
+<header>
+    <a class="pageName" href="index.html">Tech Blog</a>
+    <select name="Language" id="ln">
+        <option value="English">English</option>
+        <option value="Arabic">Arabic</option>
+    </select>
+</header>
+
 <head>
     <link rel="stylesheet" href="index-style.css">
-
 </head>
 
 
@@ -21,25 +28,25 @@
     
     <h1>All Technical Articles</h1>
      
-    <div class="pargraph">
+    <div id="par1" class="pargraph">
         <h3>HTML Introduction</h3>
         <p class="body">HTML is the standard markup language for creating Web pages.</p>
         <a class="read" href="article.html"> Read Now </a>
         <button class="edit" type="button">Edit</button>
-        <button class="delete" type="button">Delete</button>
+        <button class="delete" type="button" onclick="deleteArticle1()">Delete</button>
     </div>
 
     
-    <div class="pargraph">
+    <div id="par2" class="pargraph">
         <h3>Creating hyperlinks</h3>
         <p class="body">hyperlinks are really important ــ they are what makes the Web a web. This article showa the syntax required to make a link, and discusses link best practices</p>
         <a class="read" href="article.html"> Read Now </a>
         <button class="edit" type="button">Edit</button>
-        <button class="delete" type="button">Delete</button>
+        <button class="delete" type="button" onclick="deleteArticle2()">Delete</button>
     </div>
     
 
-    <div class="pargraph">
+    <div id="par3" class="pargraph">
         <h3>HTML tables</h3>
         <p class="body">A very common task in HTML is structuring tabular data, and it has a number of elements and attributes for just this purpose. Coupled with a litle CSS for styling, HTML makes it easy to display 
             tables of information on the web such as your school lesson plan, the timetable at your local swimming pool, or statistics about your favorite dinosaurs or football team. This module takes you 
@@ -47,10 +54,13 @@
         </p>
         <a class="read" href="article.html"> Read Now </a>
         <button class="edit" type="button">Edit</button>
-        <button class="delete" type="button">Delete</button>
+        <button class="delete" type="button" onclick="deleteArticle3()">Delete</button>
     </div>
 
     <footer>© The Tech Blog 2023 created by 222-SWE-363 student</footer>
+
+
+    <script src="index.js"></script>
 
 
 </body>

@@ -71,6 +71,19 @@
     flex-direction: row; */
 }
 
+header{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #efeffa;
+    margin-bottom: 2em;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: #efeffa;
+    margin-top: 1em;
+}
 
 *{
     font-family: Helvetica;  

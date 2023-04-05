@@ -8,6 +8,11 @@
     border-radius: 1rem;
     cursor: pointer;
     margin: 10px;
+    width: 100%;
+}
+
+.create{
+    font-size: 100px;
 }
 
 .button:hover{
@@ -19,6 +24,34 @@
     grid-area: 150 px;
 }
 
+.container{
+    /* display: grid; */
+    justify-self: center;
+    justify-content: center;
+    width: auto;
+    margin: 0px 200px;
+}
+
+.box{
+    border: 1px solid black;
+    padding:10px;
+    border-radius: 1rem;
+    width: 100%;
+}
+
+header{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #efeffa;
+    margin-bottom: 2em;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: #efeffa;
+    margin-top: 1em;
+}
 
 *{
     font-family: Helvetica;  
