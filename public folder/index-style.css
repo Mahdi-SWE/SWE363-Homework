@@ -21,6 +21,7 @@
     border-radius: 1rem;
     cursor: pointer;
     margin: 10px;
+    text-decoration: none;
 }
 
 .edit:hover{
@@ -66,9 +67,6 @@
     border-left: 3px solid #6d64ff;
     padding: 10px;
     margin: 15px;
-
-    /* display: flex;
-    flex-direction: row; */
 }
 
 header{

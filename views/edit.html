@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<header>
+    <a class="pageName" href="index.html">Tech Blog</a>
+    <select name="Language" id="ln">
+        <option value="English">English</option>
+        <option value="Arabic">Arabic</option>
+    </select>
+</header>
+<link rel="stylesheet" href="/public folder/new-style.css">
+<head>
+    <link href="node_modules/froala-editor/css/froala_editor.pkgd.min.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+
+
+    <div class="container">
+        <h1 class="create">Create an artcle</h1>
+        <form id="title">
+            initForm
+            Title <input class="box" type="text" required>
+            <br>
+            <br>
+            Auther <input class="box" type="text" value="Admin">
+            <br>
+            <br>
+            Description <textarea class="box" name="Description" id="" cols="20" rows="2" required></textarea>
+            <br>
+            <br>
+            Content <textarea class="box" name="content" id="content" cols="20" rows="10"></textarea>
+            <br>
+            <br>
+            Arabic Content <textarea class="box" name="content" id="content" cols="20" rows="10"></textarea>
+            <br>
+            <br>
+        </form>
+        <input onclick="validate()" class="button" type="submit" form="title" value="Update">
+    </div>
+
+
+
+
+    <footer>© The Tech Blog 2023 created by 222-SWE-363 student</footer>
+
+
+    <script src="/public folder/new.js"></script>
+    <script type="text/javascript" src="node_modules/froala-editor/js/froala_editor.pkgd.min.js"></script>
+
+
+</body>
+
+</html>
